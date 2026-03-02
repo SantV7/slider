@@ -7,7 +7,7 @@
 body {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(135deg, rgb(24, 21, 29), rgb(44, 37, 54));
+    background-image: linear-gradient(135deg, rgb(150, 143, 160), rgb(35, 25, 48));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,13 +16,17 @@ body {
 
 #slider-area {
     background-color: white;
-    height: 300px;
-    width: 460px;
-    border-radius: 4px;
+    height: 390px;
+    min-width: 200px;
+    width: 643px;
+    border-radius: 7px;
     display: flex;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.308);
     justify-content: space-between;
     align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
     .arrow {
         cursor: pointer;
@@ -31,11 +35,12 @@ body {
         background-position: center center;
         background-size: contain;
         transition:  ease 0.27s;
-        width: 30px;
-        height: 40px;
+        width: 37px;
+        height: 50px;
         opacity: 86%;
         scale: 1.52;
-
+        border-radius: 50%;
+        
         &:hover {
             scale: 1.63;
             opacity: 100%;
@@ -49,4 +54,3 @@ body {
     #arrow-right {
         margin-right: 23px;
     }
-}
