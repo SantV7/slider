@@ -49,8 +49,8 @@ body {
 
     #arrow-left {
         rotate: 180deg;
-        margin-left: 23px;
+        margin-right: 20px;
     }
     #arrow-right {
-        margin-right: 23px;
+        margin-left: 20px;
     }
